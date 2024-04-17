@@ -1,0 +1,94 @@
+{
+    "name": "🌹⃝𖣔𝐓𝐎𝐒𝐔 𝐗 𝐌𝐔𝐒𝐈𝐂🥀⛦⃕‌🇮🇳",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://graph.org//file/6fdc676b5f202978703a8.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "GOKU",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐈𝐃 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "25992525",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐇𝐀𝐒𝐇 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "ff10095d2bb96d43d6eb7a7d9fc85f81",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "𝐆𝐄𝐓 𝐁𝐎𝐓 𝐓𝐎𝐊𝐄𝐍 𝐅𝐑𝐎𝐌 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑",
+        "value": "6623411485:190ab5aaeb8886ab7c986eb54959377c",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
+        "value": "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
+        "value": "5730490876",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀  𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 V2 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.( 𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/STRINGFATHERBOT ) . ",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐇𝐄𝐑𝐎𝐊𝐔 𝐀𝐂𝐂. 𝐀𝐏𝐈 𝐊𝐄𝐘, 𝐈𝐅 𝐃𝐎𝐍𝐓 𝐊𝐍𝐎𝐖 𝐓𝐇𝐈𝐒 𝐓𝐇𝐄𝐍 𝐋𝐄𝐀𝐕𝐄 𝐓𝐇𝐈𝐒 𝐋𝐈𝐍𝐄 𝐁𝐋𝐀𝐍𝐊",
+        "value": "d87c1d11-b636-4e7e-891d-4dd9454ee685",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐀𝐏𝐏 𝐍𝐀𝐌𝐄 𝐖𝐇𝐈𝐂𝐇 𝐅𝐈𝐋𝐋𝐄𝐃 𝐈𝐍 𝐘𝐎𝐈𝐑 𝐅𝐈𝐑𝐒𝐓 𝐋𝐈𝐍𝐄 (𝐀𝐏𝐏 𝐍𝐀𝐌𝐄).",
+        "value": "hinatababy",
+        "required": false
+      },
+      "AUTO_GCAST": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 [True] 𝐅𝐎𝐑 𝐎𝐍 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄, (Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
+        "value": "True",
+        "required": false
+      },
+      "AUTO_GCAST_MSG": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐖𝐇𝐈𝐂𝐇 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐓𝐖𝐈𝐂𝐄 𝐈𝐍 𝐀 𝐃𝐀𝐘. ( 𝐀𝐍𝐘 𝐓𝐘𝐏𝐄 𝐎𝐅 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐂𝐎𝐏𝐘 𝐀𝐍𝐃 𝐏𝐀𝐒𝐓𝐄 𝐇𝐄𝐑𝐄 )",
+        "value": "",
+        "required": false
+      },
+      "START_IMG_URL": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
+        "value": "https://telegra.ph/file/d5b0fb981c5fa3f96c608.jpg",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐋𝐎𝐆 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐖𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐀𝐋𝐖𝐀𝐘𝐒 𝐒𝐓𝐀𝐘 𝐀𝐃𝐌𝐈𝐍 (𝐈𝐃 𝐌𝐔𝐒𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐖𝐈𝐓𝐇 -100).",
+        "value": "-1002126989582",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
+      "stack": "container"
+      }
