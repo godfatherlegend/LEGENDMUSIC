@@ -5,7 +5,7 @@ import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
-from TOSUUMUSIC import app
+from TOSUMUSIC import app
 from config import YOUTUBE_IMG_URL
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -107,9 +107,9 @@ async def get_thumb(videoid):
     enhancer = ImageEnhance.Brightness(background)
     background = enhancer.enhance(0.6)
     draw = ImageDraw.Draw(background)
-    arial = ImageFont.truetype("GOKUMUSIC/assets/assets/font2.ttf", 30)
-    font = ImageFont.truetype("GOKUMUSIC/assets/assets/font.ttf", 30)
-    title_font = ImageFont.truetype("GOKUMUSIC/assets/assets/font3.ttf", 45)
+    arial = ImageFont.truetype("TOSUMUSIC/assets/assets/font2.ttf", 30)
+    font = ImageFont.truetype("TOSUMUSIC/assets/assets/font.ttf", 30)
+    title_font = ImageFont.truetype("TOSUMUSIC/assets/assets/font3.ttf", 45)
 
 
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
