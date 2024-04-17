@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await GOKU.decorators()
+    await TOSU.decorators()
     LOGGER("TOSUMUSIC").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗧𝗢𝗦𝗨☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
