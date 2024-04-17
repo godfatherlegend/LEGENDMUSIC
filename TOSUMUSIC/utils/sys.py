@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from GOKUMUSIC.music import _boot_
-from GOKUMUSIC.utils.formatters import get_readable_time
+from TOSUMUSIC.music import _boot_
+from TOSUMUSIC.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
