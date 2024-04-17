@@ -1,8 +1,8 @@
-from GOKUMUSIC.core.bot import GOKU
-from GOKUMUSIC.core.dir import dirr
-from GOKUMUSIC.core.git import git
-from GOKUMUSIC.core.userbot import Userbot
-from GOKUMUSIC.music import dbb, heroku
+from TOSUMUSIC.core.bot import TOSU
+from TOSUMUSIC.core.dir import dirr
+from TOSUMUSIC.core.git import git
+from TOSUMUSIC.core.userbot import Userbot
+from TOSUMUSIC.music import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = GOKU()
+app = TOSU()
 api = SafoneAPI()
 userbot = Userbot()
 
