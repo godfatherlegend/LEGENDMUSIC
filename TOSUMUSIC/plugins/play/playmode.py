@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from GOKUMUSIC import app
-from GOKUMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from GOKUMUSIC.utils.decorators import language
-from GOKUMUSIC.utils.inline.settings import playmode_users_markup
+from TOSUMUSIC import app
+from TOSUMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from TOSUMUSIC.utils.decorators import language
+from TOSUMUSIC.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
