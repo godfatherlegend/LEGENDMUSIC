@@ -1,5 +1,5 @@
-from GOKUMUSIC import app
-from GOKUMUSIC.utils.database import get_cmode
+from TOSUMUSIC import app
+from TOSUMUSIC.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
