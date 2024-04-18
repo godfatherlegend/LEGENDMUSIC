@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from Strings import get_string, helpers
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 from pyrogram.types import InputMediaVideo
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import add_sudo, remove_sudo
-from GOKUMUSIC.utils.decorators.language import language
-from GOKUMUSIC.utils.extraction import extract_user
-from GOKUMUSIC.utils.inline import close_markup
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import add_sudo, remove_sudo
+from TOSUMUSIC.utils.decorators.language import language
+from TOSUMUSIC.utils.extraction import extract_user
+from TOSUMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
