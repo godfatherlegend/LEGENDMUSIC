@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from GOKUMUSIC import YouTube, app
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import (
+from TOSUMUSIC import YouTube, app
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from GOKUMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from GOKUMUSIC.utils.inline import botplaylist_markup
+from TOSUMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from Strings import get_string
 
@@ -37,7 +37,7 @@ def PlayWrapper(command):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="GOKUmousAdmin",
+                            callback_data="TOSUmousAdmin",
                         ),
                     ]
                 ]
