@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from GOKUMUSIC.utils.msg_types import button_markdown_parser
-from GOKUMUSIC.utils.notes_func import NoteFillings
+from TOSUMUSIC.utils.msg_types import button_markdown_parser
+from TOSUMUSIC.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 
