@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from GOKUMUSIC.music import db
-from GOKUMUSIC.utils.formatters import check_duration, seconds_to_min
+from TOSUMUSIC.music import db
+from TOSUMUSIC.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
