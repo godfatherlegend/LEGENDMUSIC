@@ -10,7 +10,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 from GOKUMUSIC.music import HAPP, SUDOERS, XCB
 from GOKUMUSIC.utils.database import (
     get_active_chats,
