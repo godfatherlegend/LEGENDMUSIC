@@ -1,5 +1,5 @@
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import get_lang, is_maintenance
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import get_lang, is_maintenance
 from Strings import get_string
 
 
