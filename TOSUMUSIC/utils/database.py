@@ -438,7 +438,7 @@ async def maintenance_off():
     return await onoffdb.delete_one({"on_off": 1})
 
 
-async def maintenance_onu():
+async def maintenance_on():
     maintenance.clear()
     maintenance.append(1)
     is_on = await is_on_off(1)
