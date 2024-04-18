@@ -1,13 +1,13 @@
 from pyrogram import filters
 import requests, random
 from bs4 import BeautifulSoup
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 import pytgcalls
 import os, yt_dlp 
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pytgcalls.types import AudioVideoPiped
-from GOKUMUSIC.plugins.play import play
-from GOKUMUSIC.plugins.play.pornplay import play
+from TOSUMUSIC.plugins.play import play
+from TODUMUSIC.plugins.play.pornplay import play
 
 #
 #####
