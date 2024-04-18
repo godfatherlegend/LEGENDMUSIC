@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from GOKUMUSIC import app
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import add_off, add_on
-from GOKUMUSIC.utils.decorators.language import language
+from TOSUMUSIC import app
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import add_off, add_on
+from TOSUMUSIC.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
