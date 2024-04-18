@@ -1,6 +1,6 @@
 from typing import Union
-from GOKUMUSIC import app
-from GOKUMUSIC.utils.formatters import time_to_seconds
+from TOSUMUSIC import app
+from TOSUMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
