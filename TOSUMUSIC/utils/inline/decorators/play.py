@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from GOKUMUSIC import YouTube, app
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import (
+from TOSUMUSIC import YouTube, app
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
