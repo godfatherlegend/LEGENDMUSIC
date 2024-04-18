@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from GOKUMUSIC import app
-from GOKUMUSIC.utils.database import is_on_off
+from TOSUMUSIC import app
+from TOSUMUSIC.utils.database import is_on_off
 from config import LOGGER_ID
 
 
