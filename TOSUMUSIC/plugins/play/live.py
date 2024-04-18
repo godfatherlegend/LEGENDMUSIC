@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from GOKUMUSIC import YouTube, app
-from GOKUMUSIC.utils.channelplay import get_channeplayCB
-from GOKUMUSIC.utils.decorators.language import languageCB
-from GOKUMUSIC.utils.stream.stream import stream
+from TOSUMUSIC import YouTube, app
+from TOSUMUSIC.utils.channelplay import get_channeplayCB
+from TOSUMUSIC.utils.decorators.language import languageCB
+from TOSUMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
