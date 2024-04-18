@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from GOKUMUSIC import app
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils import get_readable_time
-from GOKUMUSIC.utils.database import (
+from TOSUMUSIC import app
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils import get_readable_time
+from TOSUMUSIC.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from GOKUMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from GOKUMUSIC.utils.decorators.language import language
-from GOKUMUSIC.utils.extraction import extract_user
+from TOSUMUSIC.utils.decorators.language import language
+from TOSUMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
