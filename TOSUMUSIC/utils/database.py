@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from GOKUMUSIC import userbot
-from GOKUMUSIC.core.mongo import mongodb
+from TOSUMUSIC import userbot
+from TOSUMUSIC.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
@@ -67,7 +67,7 @@ async def set_assistant_new(chat_id, number):
 
 
 async def set_assistant(chat_id):
-    from GOKUMUSIC.core.userbot import assistants
+    from TOSUMUSIC.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -81,7 +81,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from GOKUMUSIC.core.userbot import assistants
+    from TOSUMUSIC.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -108,7 +108,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from GOKUMUSIC.core.userbot import assistants
+    from TOSUMUSIC.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -121,7 +121,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from GOKUMUSIC.core.userbot import assistants
+    from TOSUMUSIC.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -438,7 +438,7 @@ async def maintenance_off():
     return await onoffdb.delete_one({"on_off": 1})
 
 
-async def maintenance_on():
+async def maintenance_onu():
     maintenance.clear()
     maintenance.append(1)
     is_on = await is_on_off(1)
