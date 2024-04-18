@@ -11,14 +11,14 @@ from pyrogram import filters
 
 import config
 from TOSUMUSIC import app
-from GOKUMUSIC.music import HAPP, SUDOERS, XCB
-from GOKUMUSIC.utils.database import (
+from TOSUMUSIC.music import HAPP, SUDOERS, XCB
+from TOSUMUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from GOKUMUSIC.utils.decorators.language import language
-from GOKUMUSIC.utils.pastebin import GOKUBin
+from TOSUMUSIC.utils.decorators.language import language
+from TOSUMUSIC.utils.pastebin import TOSUBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
