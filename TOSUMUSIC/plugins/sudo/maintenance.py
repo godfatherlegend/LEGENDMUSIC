@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GOKUMUSIC import app
-from GOKUMUSIC.music import SUDOERS
-from GOKUMUSIC.utils.database import (
+from TOSUMUSIC import app
+from TOSUMUSIC.music import SUDOERS
+from TOSUMUSIC.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
