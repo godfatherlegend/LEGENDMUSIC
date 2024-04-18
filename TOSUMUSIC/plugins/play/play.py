@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from GOKUMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from GOKUMUSIC.core.call import GOKU
-from GOKUMUSIC.utils import seconds_to_min, time_to_seconds
-from GOKUMUSIC.utils.channelplay import get_channeplayCB
-from GOKUMUSIC.utils.decorators.language import languageCB
-from GOKUMUSIC.utils.decorators.play import PlayWrapper
-from GOKUMUSIC.utils.formatters import formats
-from GOKUMUSIC.utils.inline import (
+from TOSUMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from TOSUMUSIC.core.call import GOKU
+from TOSUMUSIC.utils import seconds_to_min, time_to_seconds
+from TOSUMUSIC.utils.channelplay import get_channeplayCB
+from TOSUMUSIC.utils.decorators.language import languageCB
+from TOSUMUSIC.utils.decorators.play import PlayWrapper
+from TOSUMUSIC.utils.formatters import formats
+from TOSUMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from GOKUMUSIC.utils.logger import play_logs
-from GOKUMUSIC.utils.stream.stream import stream
+from TOSUMUSIC.utils.logger import play_logs
+from TOSUMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
