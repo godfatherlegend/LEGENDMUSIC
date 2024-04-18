@@ -1,8 +1,8 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 import config
-from GOKUMUSIC.utils.formatters import time_to_seconds
+from TOSUMUSIC.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
