@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from GOKUMUSIC import app
+from TOSUMUSIC import app
 
 
 def start_panel(_):
