@@ -1,17 +1,17 @@
 import requests
 import random
-from GOKUMUSIC import app, userbot
-from GOKUMUSIC.music import SUDOERS
+from TOSUMUSIC import app, userbot
+from TOSUMUSIC.music import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from GOKUMUSIC.utils.goku_ban import admin_filter
+from TOSUMUSIC.utils.goku_ban import admin_filter
 
 
 
 
 
 
-Chichi_text = [
+Ali_text = [
 "hey please don't disturb me.",
 "who are you",    
 "aap kon ho",
